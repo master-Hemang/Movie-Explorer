@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #a5dacd;
+}
+
+h1, h2, h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.MuiCard-root {
+  transition: transform 0.2s;
+}
+
+.MuiCard-root:hover {
+  transform: scale(1.05);
+}
+
+.MuiTypography-h6 {
+  color: #3f51b5;
+}
+
+
+.MuiContainer-root {
+  padding-top: 40px;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #303f9f;
+}
+
+.MuiTextField-root {
+  max-width: 400px;
+}
