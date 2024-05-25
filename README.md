@@ -1,6 +1,6 @@
 # Movie-Explorer
 
-Movie Explorer is a web application that allows users to search for movies by title or genre and display relevant information.
+Movie Explorer is a web application that allows users to search for movies by title and genre and displays its relevant information.
 
 ## Tech Stack
 - **Frontend:** React, Axios, Material-UI
@@ -8,8 +8,10 @@ Movie Explorer is a web application that allows users to search for movies by ti
 - **External API:** OMDb API
 
 ## Features
-- Search movies by title or genre.
-- Display movie details such as title, year, synopsis, and poster image.
+- Search movies by its title .
+- Movies can be filtered by its Genre for a given title .
+- Display movie details such as title, year, synopsis, IMDb Rating and poster image.
+- Easily obtain the movie's Youtube trailer by clicking on it .
 - User-friendly interface with search input and movie listings.
 
 ## Setup and Installation
@@ -37,7 +39,7 @@ Movie Explorer is a web application that allows users to search for movies by ti
      ```
 
 ## Deployment
-- The application can be deployed using platforms like Heroku or Vercel.
+- The application has been deployed using Vercel.
 
 ## Assumptions
 - The application uses a simple mock API for movie search and details.
@@ -46,8 +48,7 @@ Movie Explorer is a web application that allows users to search for movies by ti
 ## Challenges
 - Handling API rate limits from the OMDb API.
 - Ensuring cross-origin requests work seamlessly.
+- Deploying the backend and frontend on a hosting platform .
 
 ## Future Enhancements
-- Add genre filtering.
-- Include user ratings and movie trailers if available.
 - Implement user authentication for a personalized experience.
