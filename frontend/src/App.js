@@ -9,7 +9,7 @@ const App = () => {
 
   const handleSearch = async (query, genre) => {
     try {
-      const response = await axios.get('/api/movies', {
+      const response = await axios.get('https://movie-explorer-backend-omega.vercel.app/api/movies', {
         params: { query, genre }
       });
       setMovies(response.data);
