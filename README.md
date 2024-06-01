@@ -35,7 +35,7 @@ Movie Explorer is a web application that allows users to search for movies by ti
    - Replace `YOUR_OMDB_API_KEY` in `backend/routes/movies.js` with your OMDb API key.
    - Start the Node.js server.
      ```bash
-     node app.js
+     node index.js
      ```
 
 ## Deployment
