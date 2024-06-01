@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 
 const router = express.Router();
-const API_KEY = 'Your_OMDb_API_key';  // Replace with your OMDb API key
+const API_KEY = process.env.OMDB_API_KEY;  // Use environment variable
 
 router.get('/', async (req, res) => {
   const { query, genre } = req.query;
